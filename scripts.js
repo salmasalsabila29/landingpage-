@@ -1,4 +1,4 @@
-// script by saiful
+
 $(document).ready(function () {
     var $grid = $('.product-container').isotope({
       itemSelector: '.product-item',
