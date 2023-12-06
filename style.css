@@ -2,12 +2,12 @@ header {
   background-image: url('./assets/images/hero/header.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 500px;
   position: relative;
 }
 
 .container {
-  padding-top: 80px;
+  padding-top: 80px; 
 }
 
 .navbar {
@@ -36,10 +36,10 @@ header {
 }
 
 .custom-jumbotron {
-  color: lightblue;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
+background-image: url('gambar/wall.png');
+background-size: cover;
+background-position: center;
+color: #fff; /* Set text color to white or a contrasting color */
 }
 
 #about {
@@ -57,6 +57,10 @@ header {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
+}
+
+.italic-foreign {
+  font-style: italic;
 }
 
 #about img {
@@ -234,10 +238,9 @@ header {
   margin-bottom: 10px;
 }
 
-/* Responsif untuk testimonial */
 @media (max-width: 767px) {
 .testi .col {
-  flex: 0 0 calc(50% - 20px); /* Mengatur lebar kolom testimonial pada layar kecil */
+  flex: 0 0 calc(50% - 20px); 
   max-width: calc(50% - 20px);
 }
 }
