@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+  <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-collapse fixed-top" aria-label="Eighth navbar example">
             <div class="container d-flex flex-wrap py-3 mb-4 mt-4">
                 <!-- Add the logo image here with styling -->
@@ -53,16 +53,31 @@
                 </div>
             </div>
         </nav>
-        <div class="container container-oke">
-            <div class="container-fluid py-4 custom-jumbotron" >
-                <h3 class="display-5 fw-bold">Atur Keuanganmu dengan Mudah di Sejahtera.id</h3>
-                <p class="col-md-8 fs-4">Sejahtera.id adalah aplikasi keuangan pribadi yang membantu Anda mengelola keuangan dengan mudah. Temukan berbagai fitur unggulan dan atur keuangan Anda secara efisien. Nikmati pengalaman berkeuangan yang luar biasa dan dapatkan penawaran eksklusif.</p>
-                <a href="#about" type="button" class="button">Mulai Sekarang</a>
+  <!-- end Navbar -->
+      
+    <!-- Page 1   -->
+        <section>
+          <div class="container">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./gambar/wall.png" class="d-block w-100" alt="...">
+              </div>
+              <!-- Add other carousel items as needed -->
             </div>
-        </div>        
-    
+            <!-- Add carousel controls if needed -->
+          </div>
+        
+          <div class="section-content">
+            <h3 class="display-5 fw-bold py-4">Atur Keuanganmu dengan Mudah di Sejahtera.id</h3>
+            <p class="col-md-8 fs-4 mt-4">Sejahtera.id adalah aplikasi keuangan pribadi yang membantu Anda mengelola keuangan dengan mudah. Temukan berbagai fitur unggulan dan atur keuangan Anda secara efisien. Nikmati pengalaman berkeuangan yang luar biasa dan dapatkan penawaran eksklusif.</p>
+            <a href="#about" type="button" class="button">Mulai Sekarang</a>
+          </div>
+        </div>
+      </section>        
+  <!-- end Page 1   -->
 
-   
+   <!-- About -->
     <section id="about">
         <div class="container mt-5">
             <div class="row">
@@ -81,8 +96,10 @@
             </div>
         </div>
     </section>
+  <!-- end About -->
 
 
+  <!-- Services   -->
     <section id="services">
         <div class="services">
             <div class="container">
@@ -109,256 +126,9 @@
             </div>
         </div>
     </section>
+  <!-- End Service       -->
 
-    <!-- <section id="product" class="product">
-        <div class="container">
-  
-          <div class="section-title">
-            <h2>Product</h2>
-            <p>Meet Our Product</p>
-          </div>
-  
-          <div class="row">
-            <div class="col-lg-12">
-              <ul id="product-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-roll-on">Roll On</li>
-                <li data-filter=".filter-spray">Spray</li>
-                <li data-filter=".filter-pocket-spray">Pocket Spray</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="row product-container">
-  
-            <div class="col-lg-4 col-md-6 product-item filter-roll-on wow fadeInUp">
-              <div class="product-wrap">
-                <figure>
-                  <img src="./assets/images/hero/produk1.jpg" class="img-fluid" alt="">
-                </figure>
-
-                <div class="product-info">
-                  <h4><a href="#">Roll On 1</a></h4>
-                  <p>Roll On product ini Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo maiores optio, ipsam ipsa, recusandae nihil repellendus eum tempora aliquam mollitia et aperiam? Voluptatibus nesciunt, tenetur unde reprehenderit debitis sed. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex odio, explicabo alias perferendis consequatur cumque, in, amet nesciunt cum magnam quae suscipit et odit error sit eaque? Consectetur, praesentium impedit.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 product-item filter-pocket-spray wow fadeInUp" data-wow-delay="0.1s">
-              <div class="product-wrap">
-                <figure>
-                  <img src="./assets/images/hero/produk3.png" class="img-fluid" alt="">
-                </figure>
-  
-                <div class="product-info">
-                  <h4><a href="#">Pocket Spray 3</a></h4>
-                  <p>Roll On product ini Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo maiores optio, ipsam ipsa, recusandae nihil repellendus eum tempora aliquam mollitia et aperiam? Voluptatibus nesciunt, tenetur unde reprehenderit debitis sed. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex odio, explicabo alias perferendis consequatur cumque, in, amet nesciunt cum magnam quae suscipit et odit error sit eaque? Consectetur, praesentium impedit.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 product-item filter-roll-on wow fadeInUp" data-wow-delay="0.2s">
-              <div class="product-wrap">
-                <figure>
-                  <img src="./assets/images/hero/produk1.jpg" class="img-fluid" alt="">
-                </figure>
-  
-                <div class="product-info">
-                  <h4><a href="#">Roll On 2</a></h4>
-                  <p>Roll On product ini Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo maiores optio, ipsam ipsa, recusandae nihil repellendus eum tempora aliquam mollitia et aperiam? Voluptatibus nesciunt, tenetur unde reprehenderit debitis sed. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex odio, explicabo alias perferendis consequatur cumque, in, amet nesciunt cum magnam quae suscipit et odit error sit eaque? Consectetur, praesentium impedit.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 product-item filter-spray wow fadeInUp">
-              <div class="product-wrap">
-                <figure>
-                  <img src="./assets/images/hero/produk2.jpg" class="img-fluid" alt="">
-                </figure>
-  
-                <div class="product-info">
-                  <h4><a href="#">Spray 2</a></h4>
-                  <p>Spray product ini Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo maiores optio, ipsam ipsa, recusandae nihil repellendus eum tempora aliquam mollitia et aperiam? Voluptatibus nesciunt, tenetur unde reprehenderit debitis sed. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex odio, explicabo alias perferendis consequatur cumque, in, amet nesciunt cum magnam quae suscipit et odit error sit eaque? Consectetur, praesentium impedit.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 product-item filter-pocket-spray wow fadeInUp" data-wow-delay="0.1s">
-              <div class="product-wrap">
-                <figure>
-                  <img src="./assets/images/hero/produk3.png" class="img-fluid" alt="">
-                </figure>
-  
-                <div class="product-info">
-                  <h4><a href="#">Pocket Spray 2</a></h4>
-                  <p>Pocket Spray product ini Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo maiores optio, ipsam ipsa, recusandae nihil repellendus eum tempora aliquam mollitia et aperiam? Voluptatibus nesciunt, tenetur unde reprehenderit debitis sed. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex odio, explicabo alias perferendis consequatur cumque, in, amet nesciunt cum magnam quae suscipit et odit error sit eaque? Consectetur, praesentium impedit.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 product-item filter-roll-on wow fadeInUp" data-wow-delay="0.2s">
-              <div class="product-wrap">
-                <figure>
-                  <img src="./assets/images/hero/produk1.jpg" class="img-fluid" alt="">
-                </figure>
-  
-                <div class="product-info">
-                  <h4><a href="#">Roll On 3</a></h4>
-                  <p>Roll On product ini Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo maiores optio, ipsam ipsa, recusandae nihil repellendus eum tempora aliquam mollitia et aperiam? Voluptatibus nesciunt, tenetur unde reprehenderit debitis sed. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex odio, explicabo alias perferendis consequatur cumque, in, amet nesciunt cum magnam quae suscipit et odit error sit eaque? Consectetur, praesentium impedit.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 product-item filter-spray wow fadeInUp">
-              <div class="product-wrap">
-                <figure>
-                  <img src="./assets/images/hero/produk2.jpg" class="img-fluid" alt="">
-                </figure>
-  
-                <div class="product-info">
-                  <h4><a href="#">Spray 1</a></h4>
-                  <p>Spray product ini Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo maiores optio, ipsam ipsa, recusandae nihil repellendus eum tempora aliquam mollitia et aperiam? Voluptatibus nesciunt, tenetur unde reprehenderit debitis sed. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex odio, explicabo alias perferendis consequatur cumque, in, amet nesciunt cum magnam quae suscipit et odit error sit eaque? Consectetur, praesentium impedit.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 product-item filter-spray wow fadeInUp" data-wow-delay="0.1s">
-              <div class="product-wrap">
-                <figure>
-                  <img src="./assets/images/hero/produk2.jpg" class="img-fluid" alt="">
-                </figure>
-  
-                <div class="product-info">
-                  <h4><a href="#">Spray 3</a></h4>
-                  <p>Spray product ini Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo maiores optio, ipsam ipsa, recusandae nihil repellendus eum tempora aliquam mollitia et aperiam? Voluptatibus nesciunt, tenetur unde reprehenderit debitis sed. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex odio, explicabo alias perferendis consequatur cumque, in, amet nesciunt cum magnam quae suscipit et odit error sit eaque? Consectetur, praesentium impedit.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 product-item filter-pocket-spray wow fadeInUp" data-wow-delay="0.2s">
-              <div class="product-wrap">
-                <figure>
-                  <img src="./assets/images/hero/produk3.png" class="img-fluid" alt="">
-                  <a href="assets/img/product/product-9.jpg" class="link-preview product-lightbox" data-gallery="productGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-                </figure>
-  
-                <div class="product-info">
-                  <h4><a href="#">Pocket Spray 1</a></h4>
-                  <p>Pocket Spray product ini Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo maiores optio, ipsam ipsa, recusandae nihil repellendus eum tempora aliquam mollitia et aperiam? Voluptatibus nesciunt, tenetur unde reprehenderit debitis sed. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex odio, explicabo alias perferendis consequatur cumque, in, amet nesciunt cum magnam quae suscipit et odit error sit eaque? Consectetur, praesentium impedit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section> -->
-  
-
-
-    <!-- <section class="testi py-5" id="testimoni">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <h1 class="display-4">TESTIMONIAL</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <img src="./assets/images/testimoni/foto1.png" class="card-img-top" alt="Neil Patel">
-                        <div class="card-body">
-                            <p class="namecoment">Costumer 1</p>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <p class="coment"><sup><i class="fa fa-quote-left"></i></sup>&emsp; Udah pernah nyobain beli di toko lain, tapi kaget banget ternyata disini harganya lebih murah!!. hehehe😁😉&emsp;<sup><i class="fa fa-quote-right"></i></sup></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="./assets/images/testimoni/foto2.png" class="card-img-top" alt="Cellia Rins">
-                        <div class="card-body">
-                            <p class="namecoment">Ceostumer 2</p>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <p class="coment"><sup><i class="fa fa-quote-left"></i></sup>&emsp; Layanan cepat dan tepat waktu, sangat puas dengan pelayanannya.😎😎&emsp;<sup><i class="fa fa-quote-right"></i></sup></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="./assets/images/testimoni/IMG 001.png" class="card-img-top" alt="Mike Demien">
-                        <div class="card-body">
-                            <p class="namecoment">Costumer 3</p>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                
-                            </div>
-                            <p class="coment"><sup><i class="fa fa-quote-left"></i></sup>&emsp;  Produknya sangat bagus dan berkualitas, rekomendasi buat yang ingin beli. 😊😊&emsp;<sup><i class="fa fa-quote-right"></i></sup></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card">
-                        <img src="./assets/images/testimoni/foto4.png" class="card-img-top" alt="Mike Demien">
-                        <div class="card-body">
-                            <p class="namecoment">Costumer 4</p>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                
-                            </div>
-                            <p class="coment"><sup><i class="fa fa-quote-left"></i></sup>&emsp;Saya sudah order berulang kali di layanan web hosting ini, tidak pernah ada kecewa, apalagi support yang sangat cepat dan ramah.😊😍&emsp;<sup><i class="fa fa-quote-right"></i></sup></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card">
-                        <img src="./assets/images/testimoni/foto4.png" class="card-img-top" alt="Mike Demien">
-                        <div class="card-body">
-                            <p class="namecoment">Costumer 5</p>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                
-                            </div>
-                            <p class="coment"><sup><i class="fa fa-quote-left"></i></sup>&emsp; Meskipun aku banyak tanya, tetapi CS tetap sabar menghadapi pertanyaan-pertanyaanku. Ini sih keren! Maaf ya, kalo rada bawel!. 👌😎&emsp;<sup><i class="fa fa-quote-right"></i></sup></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-     -->
-        
-
+  <!-- Contact Us -->
     <footer id="kontak">
         <div class="f-item-con">
             <div class="app-info">
@@ -397,12 +167,14 @@
                 </form>
             </div>
         </div>
+
+  <!-- end Contact Us -->
+  
         <div class='cr-con'>Copyright &copy; 2023 | Made by Kelompok 3 MSIB</div>
     </footer>
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
     <script src="./assets/js/scripts.js"></script>    
 </body>
 </html>
